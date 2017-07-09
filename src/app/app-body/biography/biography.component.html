@@ -1,0 +1,27 @@
+<section class="bio">
+  <h2 class="text-center heading">{{bioTitle}}</h2>
+  <div class="container">
+    <div class="row">
+      <div class="content">
+        <div class="col-md-8 col-sm-8 col-xs-12">
+          <p>
+            Hey ! i'm {{name}}, {{age}}, {{positionName}}, Student at {{education}}, {{expYears}} in {{developmentPosition}}, love
+            <mark>Penetration Testing</mark>
+            I spend my whole day experimenting, i enjoy work that challenges me to learn something new and stretch in a different direction.
+            I do my best to stay on top of changes in the world of creative.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <ul class="list-unstyled">
+            <li *ngFor="let socialDetailes of social">
+              <a href="{{socialDetailes.link}}" title="{{socialDetailes.link}}" target="_blank">
+                <i class="{{socialDetailes.icon}}"></i>
+                {{socialDetailes.name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

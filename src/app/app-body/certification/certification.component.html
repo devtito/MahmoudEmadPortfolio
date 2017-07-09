@@ -1,0 +1,19 @@
+<section class="cert">
+  <div class="container">
+    <div class="row">
+      <div class="content">
+        <div class="col-md-4 col-sm-6 col-xs-12" *ngFor="let certification of certifications">
+          <div class="certification">
+            <h3>{{ certification.name }}</h3>
+            <h5>
+              <a href="{{certification.url}}" target="_blank">
+                {{ certification.company }}
+              </a>
+            </h5>
+            <span>{{ certification.date }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
