@@ -41,6 +41,11 @@ export class NavbarComponent implements OnInit {
         name : 'Contact',
         icon : 'fa fa-envelope',
         routerLinks : 'contact'
+      },
+      {
+        name : 'OnePage Portfolio',
+        icon : 'fa fa-star',
+        routerLinks : 'onePagePortfolio'
       }
     ]
   constructor() { }

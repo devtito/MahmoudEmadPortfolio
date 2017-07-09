@@ -16,15 +16,17 @@ import { ContactComponent } from './app-body/contact/contact.component';
 import { Routes, RouterModule } from '@angular/router';
 import { EducationComponent } from './app-body/education/education.component';
 import { CertificationComponent } from './app-body/certification/certification.component';
+import { OnepagePortfolioComponent } from './app-body/onepage-portfolio/onepage-portfolio.component';
 
 const appRoutes: Routes = [
-  { path: '', component: BiographyComponent },
+  { path: '', component: AppHeaderComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'exp', component: ExperianceComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'edu', component: EducationComponent },
   { path: 'cert', component: CertificationComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: 'onePagePortfolio', component: OnepagePortfolioComponent }
 ];
 
 @NgModule({
@@ -40,14 +42,17 @@ const appRoutes: Routes = [
     PortfolioComponent,
     ContactComponent,
     EducationComponent,
-    CertificationComponent
+    CertificationComponent,
+    OnepagePortfolioComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, {useHash: true})
+
   ],
+  exports: [ RouterModule ],
   providers: [],
   bootstrap: [AppComponent]
 })

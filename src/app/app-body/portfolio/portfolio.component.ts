@@ -10,7 +10,7 @@ export class PortfolioComponent implements OnInit {
     {
       name : "Screen Mix",
       link : "http://screen-mix.com",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "screenmix" + ".png",
       companyName : "@NerdsArena",
       companyLink : "http://nerdsarena.com",
@@ -18,7 +18,7 @@ export class PortfolioComponent implements OnInit {
     {
       name : "AB Eqtisad",
       link : "http://abeqtisad.com",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "abeqtisad" + ".png",
       companyName : "@NerdsArena",
       companyLink : "http://nerdsarena.com",
@@ -26,7 +26,7 @@ export class PortfolioComponent implements OnInit {
     {
       name : "Alex Engineering Syndicate",
       link : "http://www.alexengsyn.org",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "alexengsyn" + ".png",
       companyName : "@NerdsArena",
       companyLink : "http://nerdsarena.com",
@@ -34,15 +34,15 @@ export class PortfolioComponent implements OnInit {
     {
       name : "Archfurp",
       link : "http://www.archfurp.com/",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "archfurp" + ".png",
       companyName : "@NerdsArena",
       companyLink : "http://nerdsarena.com",
     },
     {
       name : "Cuda",
-      link : "../../assets/portfolio/cuda",
-      imagePath: "../../assets/images/portfolio/",
+      link : "assets/portfolio/cuda",
+      imagePath: "assets/images/portfolio/",
       image : "cuda" + ".png",
       companyName : "Nun",
       companyLink : "Nun",
@@ -50,7 +50,7 @@ export class PortfolioComponent implements OnInit {
     {
       name : "Kaizen Print",
       link : "http://www.kzprint.com",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "kzprint" + ".png",
       companyName : "@NerdsArena",
       companyLink : "http://nerdsarena.com",
@@ -58,15 +58,15 @@ export class PortfolioComponent implements OnInit {
     {
       name : "Prof Mohamed Ragab",
       link : "http://www.profmragab.com",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "profmragab" + ".png",
       companyName : "@NerdsArena",
       companyLink : "http://nerdsarena.com",
     },
     {
       name : "Rim Banna",
-      link : "../../assets/portfolio/cuda",
-      imagePath: "../../assets/images/portfolio/",
+      link : "assets/portfolio/cuda",
+      imagePath: "assets/images/portfolio/",
       image : "rim" + ".png",
       companyName : "Nun",
       companyLink : "Nun",
@@ -74,7 +74,7 @@ export class PortfolioComponent implements OnInit {
     {
       name : "Wow Up To",
       link : "https://en-ae.wowupto.com",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "wowupto" + ".png",
       companyName : "@NerdsArena",
       companyLink : "http://nerdsarena.com",
@@ -82,7 +82,7 @@ export class PortfolioComponent implements OnInit {
     {
       name : "Shamlola",
       link : "http://www.shamlola.com",
-      imagePath: "../../assets/images/portfolio/",
+      imagePath: "assets/images/portfolio/",
       image : "shamlola" + ".png",
       companyName : "@MediaPanArab",
       companyLink : "http://mediapanarab.com",
